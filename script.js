@@ -1,17 +1,30 @@
 // Product data
 const products = [
-    {
-        title: "Children's Jewelry Box",
-        code: "CJ01",
-        weight: "0",
-        price: "1707.02",
-        shipping: "0",
-        total: "1707",
-        link: "https://mobile.yangkeduo.com/goods1.html?ps=GMEtp4WS25",
-        image: "./assets/CJ01.jpg",
-        driveLink: "https://drive.google.com/drive/folders/1iy8rtZfy4gUwl3rxA-weOV6t0FPakRTV?usp=drive_link"
-    },
-    // Add more products as needed
+  {
+    title: "Children's Jewelry Box",
+    code: "CJ01",
+    weight: "1500",
+    price: "1224.64",
+    shipping: "1800",
+    total: "3024.64",
+    link: "https://mobile.yangkeduo.com/goods1.html?ps=GMEtp4WS25",
+    image: "./assets/CJ01.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/1iy8rtZfy4gUwl3rxA-weOV6t0FPakRTV?usp=drive_link",
+  },
+  {
+    title: "Children's Bottol",
+    code: "CA01",
+    weight: "0",
+    price: "708.44",
+    shipping: "0",
+    total: "NULL",
+    link: "https://mobile.yangkeduo.com/goods1.html?ps=iwVwiw732Y",
+    image: "./assets/CA01.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/1SLDYKqaE9W6miRoWXkxjqoU_9RMVpgd1?usp=drive_link",
+  },
+  // Add more products as needed
 ];
 
 // DOM elements
@@ -22,7 +35,9 @@ const closeModalBtn = document.getElementById("closeModalBtn");
 
 // Render product cards
 function renderProducts() {
-    productGrid.innerHTML = products.map(product => `
+  productGrid.innerHTML = products
+    .map(
+      (product) => `
         <div class="product-card">
             <div class="product-image-container">
                 <img src="${product.image}" alt="${product.title}" class="product-image">
@@ -48,39 +63,41 @@ function renderProducts() {
                 </a>
             </div>
         </div>
-    `).join('');
+    `
+    )
+    .join("");
 
-    // Add event listeners to all view buttons
-    document.querySelectorAll('.view-larger-btn').forEach(button => {
-        button.addEventListener('click', function() {
-            const imageSrc = this.getAttribute('data-image');
-            const imageAlt = this.getAttribute('data-title');
-            openModal(imageSrc, imageAlt);
-        });
+  // Add event listeners to all view buttons
+  document.querySelectorAll(".view-larger-btn").forEach((button) => {
+    button.addEventListener("click", function () {
+      const imageSrc = this.getAttribute("data-image");
+      const imageAlt = this.getAttribute("data-title");
+      openModal(imageSrc, imageAlt);
     });
+  });
 }
 
 // Modal functions
 function openModal(imageSrc, imageAlt) {
-    console.log("Opening modal with:", imageSrc);
-    modalImage.src = imageSrc;
-    modalImage.alt = imageAlt;
-    imageModal.classList.add("active");
-    document.body.style.overflow = "hidden";
+  console.log("Opening modal with:", imageSrc);
+  modalImage.src = imageSrc;
+  modalImage.alt = imageAlt;
+  imageModal.classList.add("active");
+  document.body.style.overflow = "hidden";
 }
 
 function closeModal() {
-    imageModal.classList.remove("active");
-    document.body.style.overflow = "auto";
+  imageModal.classList.remove("active");
+  document.body.style.overflow = "auto";
 }
 
 // Event listeners
 closeModalBtn.addEventListener("click", closeModal);
-imageModal.addEventListener("click", function(e) {
-    if (e.target === imageModal) {
-        closeModal();
-    }
+imageModal.addEventListener("click", function (e) {
+  if (e.target === imageModal) {
+    closeModal();
+  }
 });
 
 // Initialize
-document.addEventListener('DOMContentLoaded', renderProducts);
+document.addEventListener("DOMContentLoaded", renderProducts);
