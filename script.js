@@ -24,6 +24,102 @@ const products = [
     driveLink:
       "https://drive.google.com/drive/folders/1SLDYKqaE9W6miRoWXkxjqoU_9RMVpgd1?usp=drive_link",
   },
+  {
+    title: "Children's  showpiece house",
+    code: "CS01",
+    weight: "3000",
+    price: "2812.4",
+    shipping: "3600",
+    total: "6412.4",
+    link: "https://mobile.yangkeduo.com/goods.html?ps=Fv4hQkZr9w",
+    image: "./assets/CS01.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/1Zwt2HEDkcuW8jzBpxsq8pH6O4T8AIj4o?usp=drive_link",
+  },
+  {
+    title: "Children's  showpiece house 2",
+    code: "CS02",
+    weight: "1400",
+    price: "1032.4",
+    shipping: "1680",
+    total: "2712.4",
+    link: "https://mobile.yangkeduo.com/goods1.html?ps=nynXEHt4Ox",
+    image: "./assets/CS02.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/1cc0btXfxGbpts9TuruUN7u-_G1VcKT2H?usp=drive_link",
+  },
+  {
+    title: "Children's Hello Kitty Bag",
+    code: "CB01",
+    weight: "0",
+    price: "427.2",
+    shipping: "0",
+    total: "0",
+    link: "https://mobile.yangkeduo.com/goods.html?ps=I0a0rirRgQ",
+    image: "./assets/CB01.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/1ebYOy-U59IKePlDAsUHMkC0p8S_IFsQH?usp=drive_link",
+  },
+  {
+    title: "Children's Chair",
+    code: "CC01",
+    weight: "2000",
+    price: "4770.4",
+    shipping: "2400",
+    total: "7170.4",
+    link: "https://mobile.yangkeduo.com/goods.html?ps=G4k6KIefTs",
+    image: "./assets/CC01.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/1YfbQBNKKDmG-W2OVSPbhXKhQkCes141F?usp=drive_link",
+  },
+  {
+    title: "Children's Car",
+    code: "CC02",
+    weight: "5000",
+    price: "3364.2",
+    shipping: "6000",
+    total: "9364.2",
+    link: "https://mobile.yangkeduo.com/goods2.html?ps=yp5kVWqG3S",
+    image: "./assets/CC02.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/15WJXvv6ih0I6XMXjUKY3N_SlJgdMsguY?usp=drive_link",
+  },
+  {
+    title: "Children's Car 2",
+    code: "CC03",
+    weight: "1400",
+    price: "1228.2",
+    shipping: "1680",
+    total: "2908.2",
+    link: "https://mobile.yangkeduo.com/goods2.html?ps=x3pfq9gYX4",
+    image: "./assets/CC03.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/1U5zkgfv8VhnjghpPid9Yp5dSkI5UgR00?usp=drive_link",
+  },
+  {
+    title: "Children's Car 3",
+    code: "CC04",
+    weight: "14200",
+    price: "4948.4",
+    shipping: "17040",
+    total: "21988.4",
+    link: "https://mobile.yangkeduo.com/goods.html?ps=XHq7k8MUe7",
+    image: "./assets/CC04.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/1xef7CoyVNTemgABSPRXn-OUsFwMDuf67?usp=drive_link",
+  },
+  {
+    title: "Children's Car 4",
+    code: "CC05",
+    weight: "2500",
+    price: "2438.6",
+    shipping: "3000",
+    total: "5438.6",
+    link: "https://mobile.yangkeduo.com/goods.html?ps=6IzsO3mpdo",
+    image: "./assets/CC05.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/1B1oU18XFvboCwiVP408lQTskw6wg1HTQ?usp=drive_link",
+  },
   // Add more products as needed
 ];
 
