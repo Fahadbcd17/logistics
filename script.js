@@ -120,6 +120,30 @@ const products = [
     driveLink:
       "https://drive.google.com/drive/folders/1B1oU18XFvboCwiVP408lQTskw6wg1HTQ?usp=drive_link",
   },
+  {
+    title: "Children's Bike ",
+    code: "CC06",
+    weight: "1600",
+    price: "1139.2",
+    shipping: "1920",
+    total: "3059.2",
+    link: "https://mobile.yangkeduo.com/goods.html?ps=ZYeFSZkZto",
+    image: "./assets/CC06.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/1TlvzexPgqMmap94Z-BiiC-dvfrHW8d7x?usp=drive_link",
+  },
+  {
+    title: "Children's Car 5 ",
+    code: "CC07",
+    weight: "1600",
+    price: "1851.2",
+    shipping: "1920",
+    total: "3771.2",
+    link: "https://mobile.yangkeduo.com/goods.html?ps=UhtxpboY7v",
+    image: "./assets/CC07.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/18lP5jX-hra1xMrLVMrFejgiVGWnDraBD?usp=drive_link",
+  },
   // Add more products as needed
 ];
 
