@@ -302,7 +302,126 @@ const products = [
     driveLink:
       "https://drive.google.com/drive/folders/1cc0btXfxGbpts9TuruUN7u-_G1VcKT2H?usp=drive_link",
   },
- 
+  {
+    title: "Children's Toy",
+    code: "CT01",
+    weight: "0",
+    price: "818.8",
+    shipping: "0",
+    total: "0",
+    link: "https://e.tb.cn/h.hPMgns0RnBVL689?tk=fkJP43NrdlU CZ057 ",
+    image: "./assets/CT01.jpg",
+    driveLink:
+      "https://drive.google.com/drive/u/3/folders/1oP6Ok0mPU6vjeM_CjaJ1ZrSa3q_SEM-A",
+  },
+  {
+    title: "Children's Toy 2",
+    code: "CT02",
+    weight: "0",
+    price: "3880.4",
+    shipping: "0",
+    total: "0",
+    link: "https://e.tb.cn/h.hP2GTfnHwxy1KbN?tk=ehOj43ndCKE",
+    image: "./assets/CT02.jpg",
+    driveLink:
+      "https://drive.google.com/drive/u/3/folders/1sLzM5-wHOQjAqDOnytbypLyDoyHsxAB4",
+  },
+  {
+    title: "Children's Toy 2",
+    code: "CT03",
+    weight: "0",
+    price: "692.42",
+    shipping: "0",
+    total: "0",
+    link: "https://mobile.yangkeduo.com/goods1.html?ps=BNLdEEumUt",
+    image: "./assets/CT03.jpg",
+    driveLink:
+      "https://drive.google.com/drive/u/3/folders/1iPvyPFS2f-R2hrM2nUVOnmeVJ0f-ki8y",
+  },
+  {
+    title: "Children's Toy 2",
+    code: "CT04",
+    weight: "0",
+    price: "2741.2",
+    shipping: "0",
+    total: "0",
+    link: "https://mobile.yangkeduo.com/goods1.html?ps=cfUnb5F93l",
+    image: "./assets/CT04.jpg",
+    driveLink:
+      "https://drive.google.com/drive/u/3/folders/1xef7CoyVNTemgABSPRXn-OUsFwMDuf67",
+  },
+  {
+    title: "Children's Train",
+    code: "CT05",
+    weight: "0",
+    price: "2278.4",
+    shipping: "0",
+    total: "0",
+    link: "https://mobile.yangkeduo.com/goods.html?ps=Yqnr4z4fH6",
+    image: "./assets/CT05.jpg",
+    driveLink:
+      "https://drive.google.com/open?id=1YDGk3MmEu2CRTQ9nkEGsSLRcpy4YwOV7&authuser=3",
+  },
+  {
+    title: "Children's Basketball",
+    code: "CT06",
+    weight: "3500",
+    price: "1157",
+    shipping: "4200",
+    total: "5357",
+    link: "https://mobile.yangkeduo.com/goods.html?ps=rf5k2tcpFX",
+    image: "./assets/CT06.jpg",
+    driveLink:
+      "https://drive.google.com/drive/u/3/folders/1Dtmd80qwa5-CyGqmuaJbcwpP1k9uMulc",
+  },
+  {
+    title: "Children's Toy",
+    code: "CT07",
+    weight: "0",
+    price: "2670",
+    shipping: "0",
+    total: "0",
+    link: "https://mobile.yangkeduo.com/goods1.html?ps=8YoCVC8tjw",
+    image: "./assets/CT07.jpg",
+    driveLink:
+      "https://drive.google.com/drive/u/3/folders/1U_5tbh8CY3Nd3e7f0vBtwn2dZ-AHJpbQ",
+  },
+ {
+    title: "Children's Baby hand rattle toy",
+    code: "CT08",
+    weight: "900",
+    price: "783.2",
+    shipping: "1080",
+    total: "1863.2",
+    link: "https://mobile.yangkeduo.com/goods1.html?ps=9AkX73C2GS",
+    image: "./assets/CT08.jpg",
+    driveLink:
+      "https://drive.google.com/drive/u/3/folders/1QIGQSGaAkkna2PemyvHQyTBWEZmwM2AJ",
+  },
+  {
+    title: "Children's toy",
+    code: "CT09",
+    weight: "800",
+    price: "1068",
+    shipping: "960",
+    total: "2028",
+    link: "https://mobile.yangkeduo.com/goods.html?ps=8crvL5dFtg",
+    image: "./assets/CT09.jpg",
+    driveLink:
+      "https://drive.google.com/drive/u/3/folders/1Va45X3ZMq9bOhJ35jszcO-WB98qNhKkv",
+  },
+  {
+    title: "Children's  house kitchen toy set ",
+    code: "CT10",
+    weight: "0",
+    price: "890",
+    shipping: "0",
+    total: "0",
+    link: "https://mobile.yangkeduo.com/goods2.html?ps=xYiJuaojsE",
+    image: "./assets/CT10.jpg",
+    driveLink:
+      "https://drive.google.com/drive/u/3/folders/1dYGRcHSwM_9Cbjiu_UWnuj2v_lEvWmNl",
+  },
   // Add more products as needed
 ];
 
