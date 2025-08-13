@@ -3,10 +3,10 @@ const products = [
   {
     title: "Children's Bottle",
     code: "CA01",
-    weight: "0",
+    weight: "550",
     price: "708.44",
-    shipping: "0",
-    total: "NULL",
+    shipping: "660",
+    total: "1368.44",
     link: "https://mobile.yangkeduo.com/goods1.html?ps=iwVwiw732Y",
     image: "./assets/CA01.jpg",
     driveLink:
