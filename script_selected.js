@@ -25,13 +25,13 @@ const products = [
     driveLink:
       "https://drive.google.com/drive/folders/1V6EbwyX9ooBnQkKQZXscB1GvQ4rmM4PI?usp=drive_link",
   },
-  {
+ {
     title: "Children's Chair",
     code: "CC01",
-    weight: "2000",
+    weight: "4500",
     price: "4770.4",
-    shipping: "2400",
-    total: "7170.4",
+    shipping: "5400",
+    total: "10170.4",
     link: "https://mobile.yangkeduo.com/goods.html?ps=G4k6KIefTs",
     image: "./assets/CC01.jpg",
     driveLink:
@@ -40,10 +40,10 @@ const products = [
   {
     title: "Children's Car 2",
     code: "CC03",
-    weight: "1400",
+    weight: "2550",
     price: "1228.2",
-    shipping: "1680",
-    total: "2908.2",
+    shipping: "3060",
+    total: "4288.2",
     link: "https://mobile.yangkeduo.com/goods2.html?ps=x3pfq9gYX4",
     image: "./assets/CC03.jpg",
     driveLink:
