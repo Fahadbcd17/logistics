@@ -2,15 +2,67 @@
 const products = [
   {
     title: "Children's Bottle",
-    code: "CA01",
-    weight: "550",
-    price: "708.44",
-    shipping: "660",
-    total: "1368.44",
-    link: "https://mobile.yangkeduo.com/goods1.html?ps=iwVwiw732Y",
-    image: "./assets/CA01.jpg",
+    code: "Bottle2",
+    weight: "0",
+    price: "648",
+    shipping: "1200",
+    total: "1848",
+    image: "./assets/Bottle2.jpg",
     driveLink:
-      "https://drive.google.com/drive/folders/1SLDYKqaE9W6miRoWXkxjqoU_9RMVpgd1?usp=drive_link",
+      "https://drive.google.com/drive/folders/1B9B3wMYi3H6BwT6EVpUfx8U0Ba-QnIex?usp=drive_link",
+  },
+  {
+    title: "Children's Bottle",
+    code: "Bottle3",
+    weight: "0",
+    price: "738",
+    shipping: "1800",
+    total: "2538",
+    image: "./assets/Bottle3.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/1mcq9XIPx4kqOLXyZ9EhRMBWV_MT869Jg?usp=drive_link",
+  },
+  {
+    title: "Children's ",
+    code: "Balis 1",
+    weight: "3000",
+    price: "1260",
+    shipping: "3600",
+    total: "4860",
+    image: "./assets/Balis1.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/1covyC8q-LvnD5OBtNs9AXOyqb8DN6RT5?usp=drive_link",
+  },
+  {
+    title: "Children's ",
+    code: "Carrier1",
+    weight: "1500",
+    price: "3060",
+    shipping: "1800",
+    total: "4860",
+    image: "./assets/Carrier1.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/1ZpYBCsBiLBhu2pXa9j7Fmuu3HHhH4Z_A?usp=drive_link",
+  },
+  {
+    code: "Hut 1",
+    weight: "3000",
+    price: "1170",
+    shipping: "3600",
+    total: "4770",
+    image: "./assets/Hut1.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/1gSZNKCfB0tjD1Nrhw7PIdLdl9FgkEcVI?usp=drive_link",
+  },
+  {
+    code: "Hut 2",
+    weight: "6000",
+    price: "2610",
+    shipping: "7200",
+    total: "9810",
+    image: "./assets/Hut2.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/1ArB1tJjiBrim9gKngZKTueYuSAY9Pacy?usp=drive_link",
   },
   
   // Add more products as needed
@@ -35,14 +87,13 @@ function renderProducts() {
                 </button>
             </div>
             <div class="product-details">
-                <h2 class="product-title">${product.title}</h2>
+            
                 <div class="product-info">
                     <p><span class="info-label">Code:</span> ${product.code}</p>
                     <p><span class="info-label">Weight:</span> ${product.weight}</p>
                     <p><span class="info-label">Price:</span> ${product.price}</p>
                     <p><span class="info-label">Shipping:</span> ${product.shipping}</p>
                     <p><span class="info-label">Total:</span> ${product.total}</p>
-                    <p><span class="info-label"><a href="${product.link}" target="_blank" class="product-link">Product Link</a></span></p>
                 </div>
                 <a href="${product.driveLink}" target="_blank" rel="noopener noreferrer" class="drive-btn">
                     <svg class="drive-icon" viewBox="0 0 24 24">
