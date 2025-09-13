@@ -25,7 +25,7 @@ const products = [
   {
     title: "Children's ",
     code: "Balis 1",
-    weight: "3000",
+    weight: "(1200)3000",
     price: "1260",
     shipping: "3600",
     total: "4860",
@@ -36,7 +36,7 @@ const products = [
   {
     title: "Children's ",
     code: "Carrier1",
-    weight: "1500",
+    weight: "(800)1500",
     price: "3060",
     shipping: "1800",
     total: "4860",
@@ -46,7 +46,7 @@ const products = [
   },
   {
     code: "Hut 1",
-    weight: "3000",
+    weight: "(1000)3000",
     price: "1170",
     shipping: "3600",
     total: "4770",
@@ -56,7 +56,7 @@ const products = [
   },
   {
     code: "Hut 2",
-    weight: "6000",
+    weight: "(3500)6000",
     price: "2610",
     shipping: "7200",
     total: "9810",
@@ -64,7 +64,126 @@ const products = [
     driveLink:
       "https://drive.google.com/drive/folders/1ArB1tJjiBrim9gKngZKTueYuSAY9Pacy?usp=drive_link",
   },
-  
+  {
+    code: "Chair2",
+    weight: "(3400)4500",
+    price: "2880",
+    shipping: "5400",
+    total: "8280",
+    image: "./assets/chair2.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/160Ln-Xad5Wa6_g21lqmlM2hx97NOFmZO?usp=drive_link",
+  },
+  {
+    code: "Milk Shaker 1",
+    weight: "(374)600",
+    price: "720",
+    shipping: "720",
+    total: "1440",
+    image: "./assets/milkshaker1.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/1CLMuyQ5MC2qATDxAFvIcCKXiY4dW6Upj?usp=drive_link",
+  },
+  {
+    code: "Food Bowl 1",
+    weight: "(340)700",
+    price: "900",
+    shipping: "840",
+    total: "1740",
+    image: "./assets/foodbowl1.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/11V6W55QB2-bPLpAFXv40Mbfr1rA1j7zV?usp=drive_link",
+  },
+  {
+    code: "Food Bowl 1",
+    weight: "(340)700",
+    price: "900",
+    shipping: "840",
+    total: "1740",
+    image: "./assets/foodbowl1.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/11V6W55QB2-bPLpAFXv40Mbfr1rA1j7zV?usp=drive_link",
+  },
+  {
+    code: "BackPack 2",
+    weight: "(300)700",
+    price: "1026",
+    shipping: "840",
+    total: "1866",
+    image: "./assets/backpack2.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/15MaMTWJEwm7SVSigYSzJu3k-YUymuP1S?usp=drive_link",
+  },
+  {
+    code: "BackPack 3",
+    weight: "(500)900",
+    price: "1710",
+    shipping: "1080",
+    total: "2790",
+    image: "./assets/backpack3.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/1-zK2wu22LW3VUkS1PNfYITLKRUvmu0Un?usp=drive_link",
+  },
+  {
+    code: "BackPack 4",
+    weight: "(500)900",
+    price: "1422",
+    shipping: "1080",
+    total: "2502",
+    image: "./assets/backpack4.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/1HjWGRvWUk6zi1DoLhdsB0gcK1dRqIA4J?usp=drive_link",
+  },
+  {
+    code: "BackPack 5",
+    weight: "(850)1400",
+    price: "684",
+    shipping: "1680",
+    total: "2364",
+    image: "./assets/backpack5.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/1nnmW2vrYTZ-ZKl4M7v-hITCux_7lJK49?usp=drive_link",
+  },
+  {
+    code: "BackPack 6",
+    weight: "(400)900",
+    price: "1062",
+    shipping: "1080",
+    total: "2142",
+    image: "./assets/backpack6.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/1Dk8m4klH5EY8I3U-kdwH10XwUZL1wl39?usp=drive_link",
+  },
+  {
+    code: "Umbrella 1",
+    weight: "(490)1000",
+    price: "1080",
+    shipping: "1200",
+    total: "2280",
+    image: "./assets/umbrella1.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/1DJ1AUCPKm7fvGZL0DxTIQJpovpAn6XW9?usp=drive_link",
+  },
+  {
+    code: "Umbrella 2",
+    weight: "(375)1000",
+    price: "1080",
+    shipping: "1200",
+    total: "2280",
+    image: "./assets/umbrella2.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/1ZSfW656_itowaM8YWnGiOuevkGgQMOP_?usp=drive_link",
+  },
+  {
+    code: "Umbrella 3",
+    weight: "(360)1000",
+    price: "1728",
+    shipping: "1200",
+    total: "2928",
+    image: "./assets/umbrella3.jpg",
+    driveLink:
+      "https://drive.google.com/drive/folders/1EeQIw2CCsFzxUNyS1DdtKNMAXzv-_DWM?usp=drive_link",
+  },
   // Add more products as needed
 ];
 
