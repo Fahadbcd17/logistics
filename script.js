@@ -95,16 +95,6 @@ const products = [
       "https://drive.google.com/drive/folders/11V6W55QB2-bPLpAFXv40Mbfr1rA1j7zV?usp=drive_link",
   },
   {
-    code: "Food Bowl 1",
-    weight: "(340)700",
-    price: "900",
-    shipping: "840",
-    total: "1740",
-    image: "./assets/foodbowl1.jpg",
-    driveLink:
-      "https://drive.google.com/drive/folders/11V6W55QB2-bPLpAFXv40Mbfr1rA1j7zV?usp=drive_link",
-  },
-  {
     code: "BackPack 2",
     weight: "(300)700",
     price: "1026",
