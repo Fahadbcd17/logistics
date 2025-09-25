@@ -7,6 +7,7 @@ const products = [
     price: "648",
     shipping: "1200",
     total: "1848",
+    bd_price: "1700-2000",
     image: "./assets/Bottle2.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/1B9B3wMYi3H6BwT6EVpUfx8U0Ba-QnIex?usp=drive_link",
@@ -29,6 +30,7 @@ const products = [
     price: "1260",
     shipping: "3600",
     total: "4860",
+    bd_price: "5687",
     image: "./assets/Balis1.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/1covyC8q-LvnD5OBtNs9AXOyqb8DN6RT5?usp=drive_link",
@@ -40,6 +42,7 @@ const products = [
     price: "3060",
     shipping: "1800",
     total: "4860",
+    bd_price: "8591",
     image: "./assets/Carrier1.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/1ZpYBCsBiLBhu2pXa9j7Fmuu3HHhH4Z_A?usp=drive_link",
@@ -70,6 +73,7 @@ const products = [
     price: "2880",
     shipping: "5400",
     total: "8280",
+    bd_price: "NOT SAME 1400-1500",
     image: "./assets/chair2.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/160Ln-Xad5Wa6_g21lqmlM2hx97NOFmZO?usp=drive_link",
@@ -203,6 +207,7 @@ function renderProducts() {
                     <p><span class="info-label">Price:</span> ${product.price}</p>
                     <p><span class="info-label">Shipping:</span> ${product.shipping}</p>
                     <p><span class="info-label">Total:</span> ${product.total}</p>
+                    <p><span class="info-label">Total:</span> ${product.bd_price}</p>
                 </div>
                 <a href="${product.driveLink}" target="_blank" rel="noopener noreferrer" class="drive-btn">
                     <svg class="drive-icon" viewBox="0 0 24 24">
