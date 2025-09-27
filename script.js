@@ -7,7 +7,7 @@ const products = [
     price: "648",
     shipping: "1200",
     total: "1848",
-    bd_price: "1700-2000",
+    bd_price: "1800-2100",
     image: "./assets/Bottle2.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/1B9B3wMYi3H6BwT6EVpUfx8U0Ba-QnIex?usp=drive_link",
@@ -19,6 +19,7 @@ const products = [
     price: "738",
     shipping: "1800",
     total: "2538",
+    bd_price: "1800-2100",
     image: "./assets/Bottle3.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/1mcq9XIPx4kqOLXyZ9EhRMBWV_MT869Jg?usp=drive_link",
@@ -53,6 +54,7 @@ const products = [
     price: "1170",
     shipping: "3600",
     total: "4770",
+    bd_price: "2300 NOT SAME",
     image: "./assets/Hut1.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/1gSZNKCfB0tjD1Nrhw7PIdLdl9FgkEcVI?usp=drive_link",
@@ -63,6 +65,7 @@ const products = [
     price: "2610",
     shipping: "7200",
     total: "9810",
+    bd_price: "2300 NOT SAME",
     image: "./assets/Hut2.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/1ArB1tJjiBrim9gKngZKTueYuSAY9Pacy?usp=drive_link",
@@ -84,6 +87,7 @@ const products = [
     price: "720",
     shipping: "720",
     total: "1440",
+    bd_price: "2938",
     image: "./assets/milkshaker1.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/1CLMuyQ5MC2qATDxAFvIcCKXiY4dW6Upj?usp=drive_link",
@@ -94,6 +98,7 @@ const products = [
     price: "900",
     shipping: "840",
     total: "1740",
+    bd_price: "350-480",
     image: "./assets/foodbowl1.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/11V6W55QB2-bPLpAFXv40Mbfr1rA1j7zV?usp=drive_link",
@@ -104,6 +109,7 @@ const products = [
     price: "1026",
     shipping: "840",
     total: "1866",
+    bd_price: "1700-2000",
     image: "./assets/backpack2.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/15MaMTWJEwm7SVSigYSzJu3k-YUymuP1S?usp=drive_link",
@@ -114,6 +120,7 @@ const products = [
     price: "1710",
     shipping: "1080",
     total: "2790",
+    bd_price: "1700-2000",
     image: "./assets/backpack3.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/1-zK2wu22LW3VUkS1PNfYITLKRUvmu0Un?usp=drive_link",
@@ -124,6 +131,7 @@ const products = [
     price: "1422",
     shipping: "1080",
     total: "2502",
+    bd_price: "1700-2000",
     image: "./assets/backpack4.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/1HjWGRvWUk6zi1DoLhdsB0gcK1dRqIA4J?usp=drive_link",
@@ -134,6 +142,7 @@ const products = [
     price: "684",
     shipping: "1680",
     total: "2364",
+    bd_price: "1700-2000",
     image: "./assets/backpack5.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/1nnmW2vrYTZ-ZKl4M7v-hITCux_7lJK49?usp=drive_link",
@@ -144,6 +153,7 @@ const products = [
     price: "1062",
     shipping: "1080",
     total: "2142",
+    bd_price: "1700-2000",
     image: "./assets/backpack6.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/1Dk8m4klH5EY8I3U-kdwH10XwUZL1wl39?usp=drive_link",
@@ -154,6 +164,7 @@ const products = [
     price: "1080",
     shipping: "1200",
     total: "2280",
+    bd_price: "950 NOT SAME",
     image: "./assets/umbrella1.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/1DJ1AUCPKm7fvGZL0DxTIQJpovpAn6XW9?usp=drive_link",
@@ -164,6 +175,7 @@ const products = [
     price: "1080",
     shipping: "1200",
     total: "2280",
+    bd_price: "1500-1800",
     image: "./assets/umbrella2.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/1ZSfW656_itowaM8YWnGiOuevkGgQMOP_?usp=drive_link",
@@ -174,6 +186,7 @@ const products = [
     price: "1728",
     shipping: "1200",
     total: "2928",
+    bd_price: "1500-1800",
     image: "./assets/umbrella3.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/1EeQIw2CCsFzxUNyS1DdtKNMAXzv-_DWM?usp=drive_link",
