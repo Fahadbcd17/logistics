@@ -220,7 +220,7 @@ function renderProducts() {
                     <p><span class="info-label">Price:</span> ${product.price}</p>
                     <p><span class="info-label">Shipping:</span> ${product.shipping}</p>
                     <p><span class="info-label">Total:</span> ${product.total}</p>
-                    <p><span class="info-label">Total:</span> ${product.bd_price}</p>
+                    <p><span class="info-label">BD Price:</span> ${product.bd_price}</p>
                 </div>
                 <a href="${product.driveLink}" target="_blank" rel="noopener noreferrer" class="drive-btn">
                     <svg class="drive-icon" viewBox="0 0 24 24">
