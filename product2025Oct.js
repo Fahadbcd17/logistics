@@ -1,18 +1,6 @@
 // Product data
 const products = [
   {
-    title: "Children's Bottle",
-    code: "CA01",
-    weight: "550",
-    price: "708.44",
-    shipping: "660",
-    total: "1368.44",
-    link: "https://mobile.yangkeduo.com/goods1.html?ps=iwVwiw732Y",
-    image: "./assets/CA01.jpg",
-    driveLink:
-      "https://drive.google.com/drive/folders/1SLDYKqaE9W6miRoWXkxjqoU_9RMVpgd1?usp=drive_link",
-  },
-  {
     title: "Children's Bath",
     code: "CA02",
     weight: "2100",
@@ -134,30 +122,6 @@ const products = [
       "https://drive.google.com/drive/folders/1ebYOy-U59IKePlDAsUHMkC0p8S_IFsQH?usp=drive_link",
   },
   {
-    title: "Children's Hello Kitty Bag",
-    code: "CB02",
-    weight: "400",
-    price: "1014.6",
-    shipping: "480",
-    total: "1494.6",
-    link: "https://mobile.yangkeduo.com/goods1.html?ps=gx0JWoTWcG",
-    image: "./assets/CB02.jpg",
-    driveLink:
-      "https://drive.google.com/drive/folders/1V6EbwyX9ooBnQkKQZXscB1GvQ4rmM4PI?usp=drive_link",
-  },
-  {
-    title: "Children's Chair",
-    code: "CC01",
-    weight: "4500",
-    price: "4770.4",
-    shipping: "5400",
-    total: "10170.4",
-    link: "https://mobile.yangkeduo.com/goods.html?ps=G4k6KIefTs",
-    image: "./assets/CC01.jpg",
-    driveLink:
-      "https://drive.google.com/drive/folders/1YfbQBNKKDmG-W2OVSPbhXKhQkCes141F?usp=drive_link",
-  },
-  {
     title: "Children's Car",
     code: "CC02",
     weight: "5000",
@@ -168,18 +132,6 @@ const products = [
     image: "./assets/CC02.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/15WJXvv6ih0I6XMXjUKY3N_SlJgdMsguY?usp=drive_link",
-  },
-  {
-    title: "Children's Car 2",
-    code: "CC03",
-    weight: "2550",
-    price: "1228.2",
-    shipping: "3060",
-    total: "4288.2",
-    link: "https://mobile.yangkeduo.com/goods2.html?ps=x3pfq9gYX4",
-    image: "./assets/CC03.jpg",
-    driveLink:
-      "https://drive.google.com/drive/folders/1U5zkgfv8VhnjghpPid9Yp5dSkI5UgR00?usp=drive_link",
   },
   {
     title: "Children's Car 3",
